@@ -10,7 +10,7 @@ var colorPalette = [
 
 var imageModule = require('users/Jhonnattan_Oliveira/Mestrado:modulos_Landsat8/2 - analise_pca');
 
-var image = imageModule.mosaico2.select('B2','B3','B4','B5');
+var image = imageModule.mosaic2.select('B2','B3','B4','B5');
 
 var importedSamples = ee.FeatureCollection('users/Jhonnattan_Oliveira/CG-MS/amostras_CG');
 
