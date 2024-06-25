@@ -1,6 +1,6 @@
 var imageModule = require('users/Jhonnattan_Oliveira/Mestrado:modulos_Landsat8/2 - analise_pca');
 
-var image = imageModule.mosaico2;
+var image = imageModule.mosaic2;
 
 // Define the parameters for SNIC
 var segmentation = ee.Algorithms.Image.Segmentation.SNIC({
