@@ -1,6 +1,7 @@
 /************************** PREPARING THE DATASET **************************/ 
 
 // Defining the area of interest
+var roi = ee.FeatureCollection('users/Jhonnattan_Oliveira/CG-MS/LIMITE_CG');
 Map.addLayer(roi.draw('blue'), {}, 'ROI', false);
 Map.centerObject(roi, 13);
 
