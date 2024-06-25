@@ -10,7 +10,7 @@ var paleta_cores = [
 
 var imagemModulo = require('users/Jhonnattan_Oliveira/Mestrado:modulos_Landsat8/3 - segmentacao');
 
-var imagem = imagemModulo.mosaico3.select("B1_mean","B2_mean","B3_mean","B4_mean","B5_mean","B6_mean",
+var imagem = imagemModulo.mosaic3.select("B1_mean","B2_mean","B3_mean","B4_mean","B5_mean","B6_mean",
  "B7_mean","B8_mean","B9_mean","B10_mean","B11_mean","NDVI_mean","Gradiente_NDVI_mean","NDWI_mean",
  "B5_asm_mean","B5_contrast_mean","B5_corr_mean","B5_var_mean","B5_idm_mean","B5_savg_mean","B5_svar_mean",
  "B5_sent_mean","B5_ent_mean","B5_dvar_mean","B5_dent_mean","B5_imcorr1_mean","B5_imcorr2_mean","B5_maxcorr_mean",
