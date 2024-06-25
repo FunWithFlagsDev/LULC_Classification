@@ -2,7 +2,7 @@ var finalImage = require('users/Jhonnattan_Oliveira/Mestrado:modulos_Landsat8/1 
 
 var roi = ee.FeatureCollection('users/Jhonnattan_Oliveira/CG-MS/LIMITE_CG');
 
-var image = finalImage.mosaico1;
+var image = finalImage.mosaic1;
 
 var geometry = roi;
 var scale = 30;
