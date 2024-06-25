@@ -1,6 +1,6 @@
 var imageModule = require('users/Jhonnattan_Oliveira/Mestrado:modulos_Landsat8/3 - segmentacao');
 
-var image = imageModule.mosaico3.select('B1_mean','B11_mean','B10_mean','B7_mean','B2_mean',
+var image = imageModule.mosaic3.select('B1_mean','B11_mean','B10_mean','B7_mean','B2_mean',
 'B5_savg_mean','NDVI_mean','B6_mean','B5_shade_mean','B5_mean','B4_mean','Gradiente_NDVI_mean',
 'NDWI_mean','B3_mean','B9_mean','B8_mean','pc5_mean','pc2_mean','B5_corr_mean','B5_idm_mean',
 'B5_sent_mean','B5_dvar_mean','B5_dent_mean','B5_imcorr2_mean','pc4_mean','B5_var_mean');
