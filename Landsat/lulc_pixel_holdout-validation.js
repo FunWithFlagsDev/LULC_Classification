@@ -1,6 +1,6 @@
 var imageModule = require('users/Jhonnattan_Oliveira/Mestrado:modulos_Landsat8/2 - analise_pca');
 
-var image = imageModule.mosaico2.select('B7','B11','B1','B6','B8','NDVI','B10','NDWI',
+var image = imageModule.mosaic2.select('B7','B11','B1','B6','B8','NDVI','B10','NDWI',
 'B3','B4','B2','B5_savg','B5','pc5','pc2','Gradiente_NDVI','B5_shade','B5_corr','pc4','B5_dvar');
 
 var importedSamples = ee.FeatureCollection('users/Jhonnattan_Oliveira/CG-MS/amostras_CG');
