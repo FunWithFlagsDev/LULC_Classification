@@ -1,4 +1,4 @@
-# LULC_Classification
+# LULC Classification
 
 
 Urban Land Use and Land Cover Classification
